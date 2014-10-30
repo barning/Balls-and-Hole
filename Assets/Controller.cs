@@ -8,7 +8,6 @@ public class Controller : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
-		transform.position = new Vector3(1,5,-11);
 	}
 	
 	// Update is called once per frame
