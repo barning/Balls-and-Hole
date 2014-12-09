@@ -13,7 +13,7 @@ public class Controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate(Vector3.right * Input.GetAxis("Vertical") * playerSpeed * Time.deltaTime);
+		transform.Translate(Vector3.left * Input.GetAxis("Vertical") * playerSpeed * Time.deltaTime);
 		transform.Rotate (Vector3.up * Input.GetAxis ("Horizontal") * playerRotationSpeed * Time.deltaTime);
 		if (Input.GetButtonDown("Jump")) {
 			print("yeah");
